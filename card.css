@@ -1,0 +1,56 @@
+.cards {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 16px;
+  align-items: left;
+}
+
+.card:hover {
+  background-color: rgb(255, 255, 255); 
+}
+.card .fa-twitter {
+  align-self: start;
+  color: #1da1f2;
+  font-size: 45px;
+  
+}
+.card .fa-instagram {
+  align-self: start;
+  color: #7b4ed4;
+  font-size: 45px;
+}
+.card .fa-youtube {
+  align-self: start;
+  color: #e71e1e;
+  font-size: 45px;
+}
+.card .fa-facebook {
+  align-self: start;
+  color: #005cb3;
+  font-size: 45px;
+}
+.card .title {
+  align-self: start;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.card .subtitle {
+  align-self: start;
+  font-size: 12px;
+  color: gray;
+}
+.fa-ellipsis-h {
+  align-self: flex-end;
+  margin-top: 12px;
+}
