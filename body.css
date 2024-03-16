@@ -15,11 +15,51 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  max-width: 80%; 
-  border-radius: 30px;
   background-color: #fff;
   margin: auto; 
+  height: auto;
+  border-radius: 45px;
 }
+
+.startyap {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #fff;
+  margin: 10px auto 0 auto; /* Üstten boşluk eklendi*/
+}
+
+.bitirbakalim {
+  flex-direction: column;
+  align-items: end;
+  max-width: 80%;
+  background-color: #fff;
+  margin: 0 auto 10px auto; /* Altta boşluk eklendi*/
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  padding: 10px; 
+  background-color: #fff;
+  border-radius: 30px;
+  height: 100vh;
+}
+
+.iconlar {  
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  margin-bottom: 5px; /* Simge öğeleri arasında boşluk */
+  gap: 50px; /* Simge öğeleri arasında boşluk */
+}
+
+.iconlar hr { /* hr elemanı için */
+  width: 80%;  /* Yatay çizginin genişliği */
+} 
+
 
 
 .background-link.background-link {

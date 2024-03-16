@@ -5,7 +5,7 @@
 }
 
 .card {
-  width: 120px;
+  width: 160px;
   display: flex;
   flex-direction: column;
   border: 3px solid #fff;
@@ -13,6 +13,8 @@
   padding: 16px;
   align-items: left;
 }
+
+
 
 .card:hover {
   background-color: rgb(255, 255, 255); 

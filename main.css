@@ -21,7 +21,6 @@ main .topControls i:hover {
 
 main .listingControls {
   color: #040404;
-  display: flex;
   gap: 8px;  
 }
 
@@ -40,10 +39,10 @@ main .dashboard {
   margin-top: 15px;
   background-color: #fff;
   border-radius: 20px;
-  padding: 0px 10px;
+  padding: 0px 10px;  
 }
 
-.Titleimiz {
+/* .Titleimiz {
   font-weight: bold;
   text-align: left;
 }
@@ -51,8 +50,21 @@ main .dashboard {
 .contentimiz {
   text-align: right;
   font-size: small;
+} */
+
+.title {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
+.contentimiz {
+  text-align: right;
+  font-size: small;
+  margin-top: 25px;
+  margin-right: 5px;
+}
 
 .key-metrics {
   margin-top: 25px;
@@ -106,7 +118,7 @@ main .dashboard {
 }
 
 .keycard-content {
-  width: 100px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +129,6 @@ main .dashboard {
   color: white;
   gap: 25px; /* Öğeler arasındaki boşluk */
   margin-left: auto; 
-  /* margin-right: 20px; */
 }
 
 .endcards .subtitle {
