@@ -1,11 +1,7 @@
 main {
-  flex-grow: 1;
   background-color: #f7f6f9;
   padding: 32px;
-  display: flex;
   flex-direction: column;
-  justify-content: center; 
-  
 }
 
 main .topControls {
@@ -41,6 +37,8 @@ main .dashboard {
   border-radius: 20px;
   padding: 0px 10px;  
 }
+
+
 
 /* .Titleimiz {
   font-weight: bold;

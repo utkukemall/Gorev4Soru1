@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="card.css" />
   </head>
 
-  <body class="background-link" style="height: auto;" >
+  <body class="background-link">
     <div class="container"> 
       <nav class="icons">
         <a class="startyap" href="#"><i class="fa-2x fa fa-eye"></i></a>
@@ -96,10 +96,11 @@
               Lost
             </div>
             </h4>
-            
+            <canvas id="myChart" class="forchart" ></canvas>
           </div>
-          <canvas id="myChart" class="forchart" style="display: block; box-sizing: border-box; height: 300px; width: 820px;"></canvas>
         </div>
+
+
 
         <div class="endthings">
           
@@ -160,9 +161,8 @@
           <img src="undraw_Scrum_board_re_wk7v.png" alt="">
           <hr>
           <div class="datepicker"></div>
-          <hr>
-          
-          <div class="container">
+          <br>
+          <div class="container2">
             <div class="profile-icon">
               <i class="fa fa-user fa-2x" aria-hidden="true"></i>
             </div>
@@ -170,8 +170,7 @@
               <span>Say hi to Laith Hart</span>
             </div>
           </div>
-
-          <div class="container">
+          <div class="container2">
             <div class="profile-icon">
               <i class="fa fa-user fa-2x" aria-hidden="true"></i>
             </div>
@@ -182,7 +181,7 @@
 
         </aside>
         
-      </div>
+    </div>
     </body>
 
   </html>
@@ -193,3 +192,14 @@
       startDate: '-3d'
     });
   </script>
+
+<script>
+  var ctx = document.getElementById("myChart").getContext("2d");
+  var myChart = new Chart(ctx, {
+    type: "bar",
+    data: data,
+    options: options,
+    width: 400,
+    height: 250,
+  });
+</script>
