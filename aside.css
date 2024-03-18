@@ -37,6 +37,25 @@ aside img {
   border-bottom: 1px solid #ccc;
 }
 
+aside div img {
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+aside div span {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+
+
 aside .notifications {
   margin-left: 15px;
   background-color: #F5EBEF;
@@ -57,8 +76,8 @@ aside .container2 {
 
 aside .profile-icon {
   float: left;
-  margin-right: 20px;
-}
+  margin-right: 5px;
+} 
 
 aside .profile-icon i {
   color: #000;
